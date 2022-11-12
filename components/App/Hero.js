@@ -49,7 +49,7 @@ const Hero = () => {
             </div>
           ))}
 
-          <img className=" rounded-lg" src="/hero-thum.jpg" />
+          {/* <img className=" rounded-lg" src="/hero-thum.jpg" /> */}
         </div>
 
       

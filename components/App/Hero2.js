@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
+import Image from 'next/image'
 
 const Hero2 = () => {
   const [apiDatas, setApiDatas] = useState();
@@ -57,7 +58,12 @@ const Hero2 = () => {
                   </div>
                 </div>
               ))} 
-              <img className=" rounded-lg" src="/hero-thum.jpg" />
+             <Image
+             height={200}
+             width={200}
+             alt="aa"
+             src="/hero-thum.jpg"
+             />
             </div>
 
             <div className="lg:w-1/3 md:w-1/2 bg-white flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0 p-10 rounded">
